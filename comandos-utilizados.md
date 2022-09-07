@@ -38,9 +38,9 @@ kafka-console-consumer --bootstrap-server=localhost:9092 --topic=teste
 
 ## Configurando um producer
 
-Ira ler as msgs do topico desde o offset 0, caso coloquemos o parametro "--from-beginning".
-
+- Ira ler as msgs do topico desde o offset 0, caso coloquemos o parametro "--from-beginning".
+- Add o consumer a um grupo chamado x, com o parametro "--group=x"
+  
 ```bash
-kafka-console-producer --bootstrap-server=localhost:9092 --topic=teste --from-beginning
+kafka-console-consumer --bootstrap-server=localhost:9092 --topic=teste --from-beginning --group=x
 ```
-
