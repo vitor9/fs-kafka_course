@@ -44,3 +44,13 @@ kafka-console-consumer --bootstrap-server=localhost:9092 --topic=teste
 ```bash
 kafka-console-consumer --bootstrap-server=localhost:9092 --topic=teste --from-beginning --group=x
 ```
+
+## Detalhando o nosso grupo de consumers
+
+- current-offset - Offset atual que esta sendo lido
+- log-end-offset - a posicao final que ira se encerrar a sequencia de offset do topico
+- lag - eh a diferença entre o current e o log-end offsets.
+
+```bash
+kafka-consumer-groups --bootstrap-server=localhost:9092 --group=x --describe
+```
