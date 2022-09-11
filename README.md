@@ -13,3 +13,7 @@ Criei anotacoes da introdução do curso ao Kafka, pode encontrar dentro da past
 ## Comandos utilizados
 
 Ao longo do curso, irei tentar documentar todos os comandos que estarei rodando. Deixarei aqui na pasta root do projeto, no arquivo "comandos-utilizados.md".
+
+## Projeto Kafka pratico
+
+Para ter um exemplo mais pratico dos conceitos vistos nesse repo, separei em um [repo diferente](https://github.com/vitor9/fs-gokafka), para tornar mais organizado.
