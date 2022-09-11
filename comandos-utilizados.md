@@ -58,3 +58,8 @@ kafka-consumer-groups --bootstrap-server=localhost:9092 --group=x --describe
 ## Link para o Confluent Control Center
 
 [Clusters](localhost:9021/clusters)
+
+## Mantendo do container log aberto e atualizando a cada 10 segs
+
+docker logs -f --tail 10 2-desenv-produtor_consumidor_kafka_1
+
