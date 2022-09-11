@@ -54,3 +54,7 @@ kafka-console-consumer --bootstrap-server=localhost:9092 --topic=teste --from-be
 ```bash
 kafka-consumer-groups --bootstrap-server=localhost:9092 --group=x --describe
 ```
+
+## Link para o Confluent Control Center
+
+[Clusters](localhost:9021/clusters)
