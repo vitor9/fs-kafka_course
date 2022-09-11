@@ -63,3 +63,6 @@ kafka-consumer-groups --bootstrap-server=localhost:9092 --group=x --describe
 
 docker logs -f --tail 10 2-desenv-produtor_consumidor_kafka_1
 
+## Puxando as dependencias do Go
+
+go mod init github.com/vitor9/fc2-gokafka
